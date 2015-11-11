@@ -7,5 +7,6 @@ var AppCache = {
   },
   clearAll: function () {
     localStorage.clear();
+    console.log("reach");
   }
 };

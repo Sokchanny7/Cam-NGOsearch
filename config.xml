@@ -15,7 +15,7 @@
         <icon density="ldpi" src="res/android/drawable-ldpi/ic_launcher.png"/>
         <icon density="mdpi" src="res/android/drawable-mdpi/ic_launcher.png"/>
         <icon density="hdpi" src="res/android/drawable-hdpi/ic_launcher.png"/>
-        <icon density="xhdpi" src="res/android/drawable-xhdpi/ic_launcher.png"/>
+        <icon density="xhdpi" src="res/android/drawable-xhdpi/ic_launcher.png"/>        
     </platform>
              
 <!--    
@@ -57,8 +57,17 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+<<<<<<< HEAD
     <platform name="android">
         <allow-intent href="market:*" />
+=======
+    
+    <platform name="android"> 
+        <icon density="ldpi" src="res/android/drawable-ldpi/ic_launcher.png"/>
+        <icon density="mdpi" src="res/android/drawable-mdpi/ic_launcher.png"/>
+        <icon density="hdpi" src="res/android/drawable-hdpi/ic_launcher.png"/>
+        <icon density="xhdpi" src="res/android/drawable-xhdpi/ic_launcher.png"/>
+>>>>>>> a18ef3934ea5f901352057feead130a5b2635054
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />

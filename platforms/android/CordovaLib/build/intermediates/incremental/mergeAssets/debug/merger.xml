@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <merger version="3"><dataSet config="main"><source path="C:\Users\Channy\InSTEED\Cam-NGOsearch\platforms\android\CordovaLib\assets"/></dataSet><dataSet config="debug"><source path="C:\Users\Channy\InSTEED\Cam-NGOsearch\platforms\android\CordovaLib\src\debug\assets"/></dataSet></merger>
+=======
+<merger version="3"><dataSet config="main"><source path="C:\Users\KU\Documents\GitHub\Cam-NGOsearch\platforms\android\CordovaLib\assets"/></dataSet><dataSet config="debug"><source path="C:\Users\KU\Documents\GitHub\Cam-NGOsearch\platforms\android\CordovaLib\src\debug\assets"/></dataSet></merger>
+>>>>>>> a18ef3934ea5f901352057feead130a5b2635054
