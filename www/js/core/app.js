@@ -5,8 +5,10 @@ var App = {
   bindEvents: function () {
     document.addEventListener('deviceready', this.onDeviceReady, false);
   },
-  onDeviceReady: function () {
-   //AppCache.clearAll();
+  onDeviceReady: function () {   
+    AppCache.clearAll();   
+    CategoryModel.setCategory();
+    NgoModel.setNgo();    
   }
 };
 App.initialize();

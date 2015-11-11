@@ -1,8 +1,9 @@
 var HomeController={
-  getHome:function (){        
-      AppCache.clearAll();
-      var $elemet = $('#page-home');
-      HomeView.rederHome($elemet);
+  getHome:function (){                    
+      var $element = $('#page-home');
+      AppCache.clearAll();      
+      var categories = CategoryModel.getCategory();
+      HomeView.rederHome($element,categories);      
   }  
 };
 

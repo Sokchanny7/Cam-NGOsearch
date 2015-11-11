@@ -6,7 +6,6 @@ var AppCache = {
     return localStorage.getItem(templateURL);
   },
   clearAll: function () {
-    localStorage.clear();
-    console.log("reach");
+    localStorage.clear();    
   }
 };
