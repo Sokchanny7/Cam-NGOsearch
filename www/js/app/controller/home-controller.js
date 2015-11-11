@@ -1,8 +1,8 @@
 var HomeController={
-  getHome:function (){        
-      AppCache.clearAll();
-      var $elemet = $('#page-home');
-      HomeView.rederHome($elemet);
+  getHome:function (){              
+      var $element = $('#page-home');
+      HomeView.rederHome($element);
+      $element.trigger('create');
   }  
 };
 
