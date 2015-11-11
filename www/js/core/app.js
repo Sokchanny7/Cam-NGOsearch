@@ -6,8 +6,9 @@ var App = {
     document.addEventListener('deviceready', this.onDeviceReady, false);
   },
   onDeviceReady: function () {   
+    AppCache.clearAll();   
     CategoryModel.setCategory();
-    console.log("isset");
+    NgoModel.setNgo();    
   }
 };
 App.initialize();
