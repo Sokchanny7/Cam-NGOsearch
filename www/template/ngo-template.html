@@ -1,11 +1,11 @@
 <div data-role="header">               
     <a data-role="button" data-icon="search" data-iconpos="right"></a>
-    <h1>Cam-NGOsearch</h1>
+    <h1>NGO List</h1>
 </div>
 <div data-role="content">
     <ul data-role="listview">        
-        {{#each categories}}
-        <li><a href='#page-ngo'><h2>{{name}}</h2></a></li>
+        {{#each ngos}}
+        <li><a href='#' id={{id}}><h2>{{name}}</h2></a></li>
         {{/each}}        
     </ul>
 </div>    
