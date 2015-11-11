@@ -5,8 +5,9 @@ var App = {
   bindEvents: function () {
     document.addEventListener('deviceready', this.onDeviceReady, false);
   },
-  onDeviceReady: function () {
-   AppCache.clearAll();
+  onDeviceReady: function () {   
+    CategoryModel.setCategory();
+    console.log("isset");
   }
 };
 App.initialize();

@@ -5,7 +5,7 @@ var NgoModel={
                 {"id":"1","name":"InSTEDD"},
                 {"id":"2","name":"HRD Center"},
                 {"id":"3","name":"UNESCO"},
-                {"id":"4","name":"Human Right of Commity"},
+                {"id":"4","name":"Human Right of Commity"}
                 );
     }
 }

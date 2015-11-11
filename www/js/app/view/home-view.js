@@ -1,7 +1,8 @@
-var HomeView={
-    rederHome:function ($element){
-       AppTemplate.process("home-template.html",null,function (content){
-           $element.html(content);                      
-       })
+var HomeView = {
+    rederHome: function ($element, categories) {
+        AppTemplate.process("home-template.html", {categories:categories}, function (content) {
+            $element.html(content);
+            $element.trigger('create');
+        })
     }
 };
